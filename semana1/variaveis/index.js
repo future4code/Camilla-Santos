@@ -27,3 +27,9 @@ let valorDeB = prompt ("Digite o valor de B")
     valorFinalA=valorDeB
     valorFinalB=valorDeA
         console.log("Valores finais serao: A=", valorFinalA ,"B=", valorFinalB)*/
+
+const numero1= Number ( prompt("Digite o primeiro numero"))   
+const numero2 = Number (prompt("Digite o segundo numero")) 
+     const x = numero1 + numero2
+     const y = numero1 * numero2
+        console.log("a soma dos dois numero sera", x, "e a multiplicacao dos dois numeros sera", y) 
