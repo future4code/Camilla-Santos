@@ -49,7 +49,7 @@ const resultadoFinal = recebaNumero(2,5)
 console.log(resultadoFinal)
 //      Questao 2 Letra B
 function receberNumero (numero1, numero2){
-    const booleano = numero1 >= numero2
+    const booleano = numero1 >=  numero2
     return booleano
 }
 let booleanoFinal = receberNumero(2,2)
@@ -61,16 +61,20 @@ const numeroPar = (n1%2 === 0)
 return numeroPar
     }
     const resultadoFinal = numero(3)
-    console.log('o numero é par?', resultadoFinal)
-        Questao 2 letra D
-    function receberMensagem(){
+    console.log('o numero é par?', resultadoFinal) */
+      //  Questao 2 letra D
+/*
+      let mensagem = prompt('Digite uma mensagem:')
+        function receberMensagem(texto)
+        {
         const tamanho = receberMensagem.length
-        let emMinusculo = receberMensagem.toLowerCase
-        console.log('O tamanho da mensagem sera',tamanho, 'para a frase', emMinusculo)
-
-    }
-    let suaMensagem = prompt('Digite uma mensagem:')
-    receberMensagem(suaMensagem) */
+        let emMinusculo = receberMensagem.toLowerCase()
+        console.log(`O tamanho da mensagem sera ${tamanho}, ${emMinusculo}`)
+            return texto.toLowerCase()
+        }
+        receberMensagem(mensagem)*/
+   
+    
         /* Questao 3
     let n1 = Number (prompt('digite o primeiro numero:'))
     let n2 = Number (prompt ('digite o segundo numero:'))
@@ -102,3 +106,29 @@ return numeroPar
     console.log(` a soma sera ${somaFinal}, a divisao sera ${divisaoFinal}, a multiplicacao sera ${multiplicacaoFinal} e a divisao sera ${divisaoFinal}`)
 
     */
+/* Desafio 1A
+    const frase = () => {
+        console.log('ola mundo')
+    }
+    frase() */
+//Desafio 1B
+/*
+    let numero = (num1, num2) =>{
+        let soma= num1+num2
+        console.log('A soma sera igual a:', soma)
+    }
+    numero(2,3) */
+/* Desafio 2
+
+    let cateto1 = Number(prompt('Digite o valor do primeiro cateto:'))
+    let cateto2 = Number(prompt('digite o valor do segundo cateto:'))
+    function hipotenusa()
+    {
+        let valorFinal = (cateto1*cateto1) + (cateto2*cateto2)
+        const valorHipotenusa= Math.sqrt(valorFinal)
+        console.log('A hipotenusa sera igual:', valorHipotenusa)
+
+        
+    }
+    
+    hipotenusa(cateto1,cateto2)*/
