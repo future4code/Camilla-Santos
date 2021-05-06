@@ -1,2 +1,2 @@
-#Aprendizado da semana
-Nesta semana na **Labenu** aprendi a usar o git e o gitbash e como usar o vscode.
+#Primeira Semana de Aprendizados
+Nessa primeira semana na **Labenu** aprendi mais sobre comandos e vscode
