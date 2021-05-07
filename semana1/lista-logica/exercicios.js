@@ -127,9 +127,9 @@ retornaUltimoElemento(array)
 
 function trocaPrimeiroEUltimo(array) {
    let novoArray = array [0]
-   let arrayUltimo = array [array.length-1]
-   array.splice(0,1,arrayUltimo)
-   array.splice(arrayUltimo,1,novoArray)
+   array [0]=array[array.length-1]
+   array[array.length-1]=novoArray
+   
    let newArray = array
    return newArray
 
@@ -139,23 +139,36 @@ trocaPrimeiroEUltimo(array)
 // Exercício 12
 
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
+   let checar = string1.toLowerCase() === string2.toLowerCase()
+   return checar
    // implemente sua lógica aqui
 }
-
+checaIgualdadeDesconsiderandoCase(string1,string2)
 // Exercício 13
 
 function checaRenovacaoRG() {
+   let anoAtual =Number (prompt('Qual o ano atual?'))
+   let anoDeNascimento1 =Number (prompt('Qual o ano de nascimento?'))
+   let anoDeEmissao =Number (prompt('Qual ano seu rg foi emitido?'))
    // implemente sua lógica aqui
 }
 
 // Exercício 14
 
 function checaAnoBissexto(ano) {
+   let anobissexto = ano%400 === 0  || ( ano%4 ===0 && ano%100 !==0)
+   return(anobissexto)
+
    // implemente sua lógica aqui
 }
 
 // Exercício 15
 
 function checaValidadeInscricaoLabenu(pessoa) {
+   let idade = String (prompt('Voce tem mais de 18? '))
+   let ensinoMedio = String(prompt('Voce tem ensino medio completo?'))
+   let horarioLivre = String (prompt('Voce esta livre nos horarios do curso?'))
+   let disponivel = idade === 'sim' && ensinoMedio === 'sim' && horarioLivre === 'sim'
+   return disponivel
    // implemente sua lógica aqui
 }
