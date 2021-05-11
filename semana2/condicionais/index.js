@@ -21,8 +21,7 @@ a) pedindo o usuario um numero
 b) ira imprimir a mensagem secreta mas se fosse 
 -10 nao iria imprimir nada
 c) sim pq o escopo if nao esta no escopo global logo 
-a variante mensagem nao esta definida no escopo global
-*/
+a variante mensagem nao esta definida no escopo global*/
 //ex 001
 
 let idade = Number (prompt('Digite sua idade:'))
