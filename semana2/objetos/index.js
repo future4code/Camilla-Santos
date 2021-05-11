@@ -76,5 +76,14 @@ function arraydeobjetos () {
 
 arraydeobjetos() */
 
+//Desafios
 
+function receberInformacao (){
+    let informacoes {
+    nome : prompt('qual seu nome?'),
+    idade: prompt ('Qual sua idade?'),
+    profissao : prompt ('Qual a sua profissao?'),
+}
+
+}
   
