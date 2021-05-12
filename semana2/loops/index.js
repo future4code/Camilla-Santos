@@ -70,13 +70,46 @@ function imprimeString(){
     }
     
 }
-imprimeString()
+imprimeString() 
 
 //e
 let arrayOriginal = [10,20,40,85,10,23,56]
+maiorNumero1=0
+menorNumero2=0
 function maiorNumero(){
-    for (let i =0; i<arrayOriginal.length ;i++){
-        
+    for (let i =0; i<arrayOriginal.length ;i++){ 
+        if (arrayOriginal[i]>maiorNumero1)
+        maiorNumero1 = arrayOriginal[i]
     } 
+    return maiorNumero1
 }
-*/
+const resultado1 = maiorNumero()
+
+function menorNumero(){
+    for (let i =0; i < arrayOriginal.length ;i++){ 
+        if (arrayOriginal[i]<menorNumero2){
+        menorNumero2 = arrayOriginal[i]}
+    } 
+    return menorNumero2
+}
+const resultado2= menorNumero()
+console.log(resultado1)
+console.log(resultado2)*/
+//Desafio 1
+let numeroPensando = Number (prompt('Digite o numero que esta pensando'))
+console.log('Vamos Jogar')
+let numeroJogado;
+function numeroPensando1 (){
+    while (numeroPensando!= numeroJogado){
+        numeroJogado = Number(prompt('digite um numero'))
+         if (numeroJogado>numeroPensando){
+             console.log('numero menor')
+         } else if ( numeroJogado< numeroPensando){
+             console.log('numero maior')
+         }
+    }
+   
+}
+
+numeroPensando1()
+console.log('Acertou')
