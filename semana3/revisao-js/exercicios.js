@@ -2,7 +2,6 @@
   
 function inverteArray(array) {
    
-    
    
  
 }
@@ -166,18 +165,39 @@ function segundoMaiorEMenor(array) {
 
 function ordenaArray(array) {
    // implemente sua lógica aqui
-  array.map()}
+ array.sort((a,b) => a-b)
+return array
+}
 
 // Exercício 12
 
 function filmeFavorito() {
    // implemente sua lógica aqui
-}
+    let objeto = {
+      nome:'O Diabo Veste Prada',
+      ano: Number(2006),
+      diretor:'David Frankel',
+      atores:['Meryl Streep', 'Anne Hathaway', 'Emily Blunt','Stanley Tucci' ]  }
+      
+
+   
+   return objeto }
+
+
 
 // Exercício 13
 
 function imprimeChamada() {
    // implemente sua lógica aqui
+   let objeto1 = {
+      nome:'O Diabo Veste Prada',
+      ano: Number(2006),
+      diretor:'David Frankel',
+      atores:['Meryl Streep', 'Anne Hathaway', 'Emily Blunt','Stanley Tucci' ] }
+
+      return `Venha assistir ao filme ${objeto1.nome}, de ${objeto1.ano}, dirigido por ${objeto1.diretor} e estrelado por ${objeto1.atores[0]}, ${objeto1.atores[1]},${objeto1.atores[2]}, ${objeto1.atores[3]}` 
+
+
 }
 
 // Exercício 14
