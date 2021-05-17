@@ -1,9 +1,8 @@
 //Exercício 1
   
 function inverteArray(array) {
-   
-   
  
+   array.reverse()
 }
 
 //Exercício 2
@@ -191,7 +190,7 @@ function imprimeChamada() {
    // implemente sua lógica aqui
    let objeto1 = {
       nome:'O Diabo Veste Prada',
-      ano: Number(2006),
+      ano: 2006,
       diretor:'David Frankel',
       atores:['Meryl Streep', 'Anne Hathaway', 'Emily Blunt','Stanley Tucci' ] }
 
@@ -204,6 +203,13 @@ function imprimeChamada() {
 
 function criaRetangulo(lado1, lado2) {
    // implemente sua lógica aqui
+   let objeto1={
+      largura:lado1,
+      altura: lado2,
+      perimetro:2*(lado1+lado2),
+      area: lado1*lado2
+   }
+ return objeto1.largura, objeto1.altura, objeto1.perimetro, objeto1.area
 }
 
 // Exercício 15
