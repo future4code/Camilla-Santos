@@ -1,14 +1,7 @@
 //Exercício 1
   
 function inverteArray(array) {
-   let i = array.length - 1
-   let novoArray = [ ]
-   while (i >= 0){
-      Novoarray.push(array[i]) 
-      i--
-      console.log(novoArray)
-   }
-    return Novoarray
+   
     
    
  
@@ -104,28 +97,76 @@ function checaTriangulo(a, b, c) {
 
 function comparaDoisNumeros(num1, num2) {
    // implemente sua lógica aqui
-   if (num1 >num2){
-      let maiorNumero= num1
-     let menorNumero=num2
-   }else {
-      maiorNumero = num2
+   let maiorNumero;
+   let menorNumero;
+   let maiorDivisivelporMenor;
+   let diferenca;
+  
+     if (num1 > num2){
+        maiorNumero= num1
+        menorNumero=num2
+     }else {
+      maiorNumero= num2
       menorNumero=num1
-   }
-   return maiorNumero, menorNumero
- 
+
+     }
+   
+  if (maiorNumero%menorNumero === 0){
+     maiorDivisivelporMenor = true
+  } else {
+     maiorDivisivelporMenor = false
+  } 
+  diferenca = maiorNumero - menorNumero
+  let objeto = {
+     maiorNumero: maiorNumero,
+     maiorDivisivelporMenor: maiorDivisivelporMenor,
+     diferenca: diferenca
+  }
+  return objeto
 }
 
 // Exercício 10
 
 function segundoMaiorEMenor(array) {
    // implemente sua lógica aqui
+   let i = 0
+   let maiorValor=0
+   let menorValor=0
+   let segundoMaior = array[0]
+   let segundoMenor  = array[0]
+   let novoArray = []
+
+   while (i < array.length){
+      if (array[i]>maiorValor ){
+         maiorValor = array [i]
+      }
+      
+      if (array[i]<menorValor){
+         menorValor = array [i]
+      }
+      i++
+      
+   } 
+   console.log(maiorValor,menorValor)
+   while (i< array.length){
+
+      if ((array[i]< maiorValor) && ( array[i] > menorValor )&&(array[i]>segundoMaior)){
+            segundoMaior = array[i]
+      } 
+      if ((array[i]< maiorValor) && (array[i] != menorValor)){
+         segundoMenor = array[i]
+      }
+      i++
+
+   }
 }
+ 
 
 //Exercício 11
 
 function ordenaArray(array) {
    // implemente sua lógica aqui
-}
+  array.map()}
 
 // Exercício 12
 
