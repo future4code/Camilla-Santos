@@ -62,3 +62,19 @@
    text-align: center;
 
 }
+.footer{
+    background-color: pink;
+    width: 100%;
+}
+.footer p{
+    text-align: center;
+}
+.imagem{
+    margin: 0 auto;
+    width: 160px;
+
+}
+.imagem img{
+    width: 50px;
+    height: 50px;
+}
