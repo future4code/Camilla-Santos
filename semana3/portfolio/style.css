@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: sans-serif;
+   
+}
+
+.cabecalho{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    display: inline;
+}
+.logo img{
+    height: 80px;
+    width: 160px;
+    margin-left: 60px;
+    
+}
+
+nav{
+    display: inline;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+nav ul li{
+    display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 7px, 13px;
+    border-radius: 3px;
+    text-transform:uppercase;
+}
+a:active, a:hover{
+    background-color: rgb(170, 168, 168);
+    transition: .5s;
+}
+
+
+/*Pagina inicial*/
+main{
+    margin-top: 80px;
+}
+.banner{
+    background-image: url(./imagens/computador.jpg.crdownload);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+
+}
+
+
+.texto-sobre-mim{
+    background-color: rgb(253, 208, 216);
+    height: 300px;
+    width: 100%;
+}
+.texto-sobre-mim h3{
+    padding-top: 10px;
+    text-align: center;
+}
+.texto-sobre-mim p{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    }
+  
+.footer {
+    height: 60px;
+    width: 100%;
+    bottom: 0px;
+    background-color: black;
+
+}
+
+
+/* Do sobre mim */
+
+
+
+
+
+/*Portfolio*/
+.projeto-portfolio{
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
