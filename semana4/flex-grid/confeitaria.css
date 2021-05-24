@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: mediumvioletred;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+nav{
+    background-color: #f2d0e0;
+    flex-direction: column;
+    
+}
+footer{
+    display: flex;
+}
