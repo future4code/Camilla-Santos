@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+   
+}
+.borda{
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    text-align: center;
+
+}
+
+.inner-header{
+    height: 100%;
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+.contem-logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.contem-logo h5{
+    color: pink;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: large;
+}
+
+.navegacao{
+    float: right;
+    height: 100%;
+    float: flex;
+
+}
+.navegacao a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    vertical-align: middle;
+}
+.navegacao li{
+  display: inline;
+  vertical-align: middle;
+
+}
+.mensagem{
+   text-align: center;
+}
+.mensagem1{
+   text-align: center;
+
+}
+.footer{
+    background-color: pink;
+    width: 100%;
+}
+.footer p{
+    text-align: center;
+}
+.imagem{
+    margin: 0 auto;
+    width: 160px;
+
+}
+.imagem img{
+    width: 50px;
+    height: 50px;
+}
