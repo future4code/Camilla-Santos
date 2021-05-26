@@ -75,3 +75,55 @@ footer{
     grid-template-columns: 300px 1fr;
     margin: 0;
 }
+video{ display: flex;
+    margin: auto;}
+@media screen and (min-device-width:320px) and (max-device-width: 480px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .navegacao1{
+        display:none
+    }
+    main{
+        display: grid;
+       grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+    .logo-e-texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .navegacao{
+        padding-right: 0;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .search{
+        padding-right: 0;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 16px;
+    }
+    footer h1{
+        font-size: 16px;
+    }
+    .corpo-todo{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    video{
+        width: 100vw;
+    }
+}
